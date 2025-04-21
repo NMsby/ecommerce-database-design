@@ -99,18 +99,18 @@ The implementation includes:
 ```
 ecommerce-database/
 ├── docs/
-│   ├── e-commerce_erd.png
-│   ├── e-commerce_erd.pdf
-│   ├── table_analysis.md
-│   ├── entity_relationships.md
-│   ├── table_attributes.md
-│   └── database_constraints.md
+│   ├── e-commerce_erd.png             # ER diagram in PNG format
+│   ├── e-commerce_erd.pdf             # ER diagram in PDF format
+│   ├── table_analysis.md              # Initial table requirements anlysis
+│   ├── entity_relationships.md        # Relationship definitions
+│   ├── table_attributes.md            # Table attributes with datat types
+│   └── database_constraints.md        # Database constraints documentation
 ├── sql/
-│   ├── create_tables.sql
-│   ├── add_relationships.sql
-│   └── add_indexes.sql
-├── ecommerce.sql
-└── README.md
+│   ├── 01_create_tables.sql           # Table creation scripts
+│   ├── 02_add_relationships.sql       # Foreign key relationship scripts
+│   └── 03_add_indexes.sql             # Index creation scripts
+├── ecommerce.sql                      # Consolidated implementation script
+└── README.md                          # Project documentation
 ```
 
 ## License
